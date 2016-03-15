@@ -1,5 +1,5 @@
 /*
- * Copyright 2004,2005 The Apache Software Foundation.
+ * Copyright 2013-2015 The Apache Software Foundation.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.cba.styles.internal;
+package org.carbon.styles.internal;
 
 
 import org.apache.commons.logging.Log;
@@ -29,7 +29,7 @@ public class Activator implements BundleActivator {
     private static final Log log = LogFactory.getLog(Activator.class);
     public void start(BundleContext bundleContext) throws Exception {
         if (log.isDebugEnabled()) {
-            log.debug("Activating the bundle org.cba.styles CBA-errorpages");
+            log.debug("Activating the bundle org.carbon.styles Carbon-errorpages");
         }
 
     }
