@@ -21,7 +21,7 @@ How to Do Avoid
     </error-page>
     <error-page>
         <error-code>403</error-code>
-        <location>/carbon/Error.html</location>
+        <location>/carbon/Error403.html</location>
    </error-page>
    <error-page>
         <error-code>404</error-code>
@@ -29,7 +29,7 @@ How to Do Avoid
   </error-page>
   <error-page>
         <error-code>405</error-code>
-        <location>/carbon/Error.html</location>
+        <location>/carbon/Error405.html</location>
   </error-page>
   <error-page>
         <error-code>500</error-code>
