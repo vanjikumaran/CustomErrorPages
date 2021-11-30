@@ -14,8 +14,8 @@ How to Do Avoid
 1) Build this code bases
 2) Once it is build take the jar and drop it in <Carbon_Home>/repository/components/dropins/
 3) Add these in <Carbon_Home>repository/conf/tomcat/carbon/WEB-INF/web.xml
-
-<error-page>
+```
+    <error-page>
         <error-code>401</error-code>
         <location>/carbon/Error401.html</location>
     </error-page>
@@ -47,7 +47,7 @@ How to Do Avoid
         <exception-type>java.lang.Exception</exception-type>
         <location>/carbon/ErrorLangException.html</location>
   </error-page>
-
+```
 4) Restart the server.
 
 
